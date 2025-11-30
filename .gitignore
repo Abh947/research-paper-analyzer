@@ -1,0 +1,34 @@
+# Virtual Environment
+venv/
+env/
+
+# Environment variables
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyc
+.pytest_cache/
+*.so
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data files (don't upload PDFs)
+data/*.pdf
+*.pdf
+
+# Outputs
+outputs/
+temp_*
+
+# Streamlit
+.streamlit/
